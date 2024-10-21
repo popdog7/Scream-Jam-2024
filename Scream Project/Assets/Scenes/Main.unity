@@ -261,11 +261,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a489cf03b408b11438484c5082d688fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 2
+  damage: 50
+  gun_ammo_capacity: 2
   main_camera: {fileID: 330585545}
   mask:
     serializedVersion: 2
     m_Bits: 128
+  ammo_in_gun: 0
+  total_ammo: 9
   gameInput: {fileID: 1400788759}
 --- !u!1 &330585543
 GameObject:
